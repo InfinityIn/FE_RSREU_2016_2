@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 2</title>
+</head>
+<body>
+	<h1>Task 2</h1>
+	<a href="#bottom" id="top">Go to bottom</a>
+	<div class="descr">
+		<h2>Task description</h2>
+		<br>
+		<ul>
+			<li>
+				<p>Prints 10 names with a line break between each name. The list should be alphabetized, and to do this place a subscripted number next to each name based on where it will go in the alphabetized list. (Example: Alan 1). Print first, the unalphabetized list with a subscript number next to each name, then the alphabetized list. Both lists should have an <span>&lt;h1&gt;</span> level heading.</p>
+			</li>
+			<li>
+				<p>Print two lists with any information you want. One list should be an ordered list, the other list should be an unordered list</p>
+			</li>
+			<li><p>Print some preformatted text of your choosing</p></li>
+			<li><p>Print a definition list with 5 items</p></li>
+		</ul>
+	</div>
+	<hr>	
+	<div class="result">
+		<h2>Result</h2>
+		<br>
+		<div class="list1">
+			<h1>List#1</h1>
+			<span>Sara</span>&nbsp;<sub>10</sub><br>
+			<span>Emma</span>&nbsp;<sub>5</sub><br>
+			<span>Isya</span>&nbsp;<sub>6</sub><br>
+			<span>Olivia</span>&nbsp;<sub>9</sub><br>
+			<span>Anastasya</span>&nbsp;<sub>2</sub><br>
+			<span>Emily</span>&nbsp;<sub>4</sub><br>
+			<span>Anna</span>&nbsp;<sub>2</sub><br>
+			<span>Maria</span>&nbsp;<sub>8</sub><br>
+			<span>Madison</span>&nbsp;<sub>7</sub><br>
+			<span>Elizabeth</span>&nbsp;<sub>3</sub><br>
+		</div>
+		<div class="list2">
+			<h1>List#2</h1>
+			<span>Anastasya</span>&nbsp;<sub>1</sub><br>
+			<span>Anna</span>&nbsp;<sub>2</sub><br>
+			<span>Elizabeth</span>&nbsp;<sub>3</sub><br>
+			<span>Emily</span>&nbsp;<sub>4</sub><br>
+			<span>Emma</span>&nbsp;<sub>5</sub><br>
+			<span>Isya</span>&nbsp;<sub>6</sub><br>
+			<span>Madison</span>&nbsp;<sub>7</sub><br>
+			<span>Maria</span>&nbsp;<sub>8</sub><br>
+			<span>Olivia</span>&nbsp;<sub>9</sub><br>
+			<span>Sara</span>&nbsp;<sub>10</sub><br>	
+		</div>
+		<br>
+		<h4>List #1</h4>
+		<ol>
+			<li>Do something</li>
+			<li>Do something else</li>
+			<li>Do more stuff</li>
+			<li>Do that again</li>
+		</ol>
+		<h4>List #2</h4>
+		<ul>
+			<li>Do something</li>
+			<li>Do something else</li>
+			<li>Do more stuff</li>
+			<li>Do that again</li>
+		</ul>
+		<br>
+		<pre>
+			<code>
+				int main() {
+   					std::string text;
+   					std::getline(std::cin, text);
+ 
+   					std::string::const_iterator const p = std::find_if(
+       					text.begin(), text.end()
+      					std::not1(std::ptr_fun(::isalnum)));
+			</code>
+		</pre>
+		<br>
+		<dl id="lastExrTask2">
+			<dt>Moscow </dt>
+				<dd>- capital of Russia.</dd>
+			<dt>London</dt>
+				<dd>- capital of Great Britain.</dd>
+			<dt>Berlin</dt>
+				<dd>- capital of Germany.</dd>
+			<dt>Paris</dt>
+				<dd>- capital of France.</dd>
+			<dt>Pekin</dt>
+				<dd>- capital of China.</dd>
+		</dl>
+	</div>
+	<a href="#top" id="bottom">Go to top</a>
+</body>
+</html>

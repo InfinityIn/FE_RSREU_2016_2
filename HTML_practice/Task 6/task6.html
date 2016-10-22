@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 6</title>
+	<style>
+		body
+		{
+			text-align: center;
+			font-family: "Open Sans", Helvetica;
+		}
+		body { height: 500px; }
+		a
+		{ 
+			font-size: .8em;
+			color:#00f;
+			margin: 5px;
+		}
+		hr{ width: 100%; color: #444; border-color: #000; }
+		.descr,
+		.result
+		{ text-align: left; width: 80%; }
+		.descr>ul{ font-style: italic; }
+		.result{ margin: 20px; }
+		.result>h1{ font-size: 0.8em; }
+		.result a{ color:#f77; margin: 5px; }
+		table td{ padding:  8px 55px; }
+		table, tr, th, td
+		{
+			text-align: center;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<h1>Task 6</h1>
+	<a href="#bottom" id="top">Go to bottom</a>
+	<div class="descr">
+		<h2>Task description</h2>
+		<br>
+		<p>Create this table</p>
+		<img src="./table.png" alt="table image" />
+		<br>
+	</div>
+	<hr>	
+	<div class="result">
+		<h2>Result</h2>
+		<br>
+		<table>
+			<caption>Mining of precious minerals</caption>
+			<thead>
+				<tr>
+					<th></th>
+					<th>2010</th>
+					<th>2012</th>
+					<th>2014</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Sapphires</td>
+					<td rowspan="2">1483</td>
+					<td>4532</td>
+					<td>6743</td>
+				</tr>
+				<tr>
+					<td>Rubies</td>
+					<td>3835</td>
+					<td>7482</td>
+				</tr>
+				<tr>
+					<td>Diamonds</td>
+					<td>683</td>
+					<td colspan="2">238</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</div>
+	<a href="#top" id="bottom">Go to top</a>
+</body>
+</html>
