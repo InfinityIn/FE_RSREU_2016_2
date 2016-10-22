@@ -1,0 +1,100 @@
+body
+		{
+			font-size: 1.1em;
+			color: #023;
+		}
+		p {
+		color: green;
+		}
+		a
+		{
+			
+			color: lime;
+		}
+		
+		}
+		
+			font-family: 'Times New Roman', Times, serif;
+			margin: auto;
+		}
+		
+			min-width: 250px;
+			max-width: 800px;
+			border: 4px solid #000;
+			outline: 1px solid #000;
+			outline-offset: 2px;
+		}
+		h1#logo
+		{
+			font-weight: bolder;
+			color:  lime;
+			margin: 0;
+			padding-top: 8px;
+			text-align: center;
+			
+		}
+		ul.1
+		{
+			line-height: 30px;
+			display: -webkit-flex;
+			padding: 30px;
+			list-style: none;
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
+		ul.navbar li
+		{
+			display: inline;
+			margin: 0 5px;
+		}
+		div.vertical-line { border-left: thin solid #000; } 
+		.navbar > li > a:hover
+		{
+			padding: 3px;
+			text-decoration: underline;
+			color: #656565;
+		}
+		article
+		{
+			display: block;
+			width: 100%;
+		}
+		
+		}
+		p
+		{
+			font-size: 1em;
+			line-height: 20px;
+			text-indent: 50px;
+		}
+		span#first-five { font-variant: small-caps; }
+		h2 { text-align: center; }
+		table#beer-table
+		{
+			width: 100%;
+			height: auto;
+			border-collapse: collapse;
+			background-color: #fff;
+		}
+		
+		tr:nth-child(even) { background-color: #f2f2f2; }
+		tr > th
+		{
+			height: 50px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		th
+		{
+			color: #fff;
+			background-color: red;
+		}
+		th,
+		td
+		{
+			padding: 8px;
+			text-align: center;
+		}
+		
+		
+	
