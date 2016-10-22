@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	<h1>Registration form</h1>
+	<main>
+		<form action="http://httpbin.org/get" method="get">
+			<fieldset>
+				<legend>Personal date</legend>
+				<div><label for="firstname">First Name &nbsp; </label><input type="text" name="firstname" id="firstname" required></div>
+				<div><label for="surname">Surname </label><input type="text" name="surname" id="surname" required></div>
+				<div>
+					<label id="sex">Sex </label>
+					<div>
+						<div><input type="radio" name="sex" value="male" id="male" required><label for="male">Male</label></div>
+						<div><input type="radio" name ="sex" value="female" id="female"><label for= "female">Female</label></div>
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Contact information</legend>
+				<div><label for="site">Site </label><input type="text" name="site" id="site"></div>
+				<div><label for="mail">E-mail&nbsp;</label><input type="email" name="email" id="mail" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required></div>
+				<div><label for="tel">Phone </label><input type="tel" name="tel" id="tel" pattern="(\+?\d[- .]*){7,13}"></div>
+			</fieldset>
+			<input type="submit" value="Отправить">
+		</form>
+	</main>
+</body>
+</html>
