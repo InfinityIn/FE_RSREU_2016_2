@@ -1,0 +1,49 @@
+body
+{
+	font-family: 'Arial','Calibri';
+	padding: 30px;
+	background-color: #444;
+}
+
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.t_data
+{
+	margin: 50px auto;
+	border-collapse: collapse;
+	color: #5d738b;
+	border: 6px #fff solid;
+}
+
+.name
+{
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+tr:nth-of-type(even){ background-color: #00d3e0; }
+
+tr:nth-of-type(odd){ background-color: #e8faf3; }
+
+tr:not(#header):hover{ background-color: #e2e5e9; }
+
+#header th
+{
+	font-size: .75em;
+	margin: 10px;
+	padding: 7px;
+	text-transform: uppercase;
+	border: 2px #fff solid;
+}
+
+td
+{
+	margin: 10px;
+	padding: 15px;
+	border: 2px #fff solid;
+}

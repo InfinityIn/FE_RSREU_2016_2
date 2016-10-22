@@ -1,0 +1,48 @@
+body
+{
+	font-family: 'Arial','Calibri';
+	padding: 30px;
+	background-color: #444;
+}
+
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+table
+{
+	margin: 50px auto;
+	border-collapse: collapse;
+	color: #5d738b;
+	border: 6px #fff solid;
+}
+
+tr td:first-child
+{
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+tr:nth-of-type(even){ background-color: #00d3e0; }
+
+tr:nth-of-type(odd){ background-color:  #e8faf3; }
+
+tr:nth-child(1n+2):hover{ background-color: #e2e5e9; }
+
+td{ padding: 15px; }
+
+th,td
+{
+	margin: 10px;
+	border: 2px #fff solid;
+}
+
+th
+{
+	font-size: .75em;
+	padding: 7px;
+	text-transform: uppercase;
+}
